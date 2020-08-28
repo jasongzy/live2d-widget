@@ -93,7 +93,7 @@
 		"selector": "a[itemprop='discussionUrl']",
 		"text": ["要去看看评论吗？"]
 	}, {
-		"selector": ".beian a",
+		"selector": ".beian a, .footer-copyright",
 		"text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
 	}, {
 		"selector": ".container a[href^='http'], .nav-link .nav-text",
@@ -178,7 +178,7 @@
 		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
 	}, {
 		"selector": ".mdui-container table",
-		"text": ["可以试着点点看哦～", "LCD电子公告牌的创意来自 <span>Matrix67</span> 哦！", "猜猜看，给这个页面加上 <span>?char=任意一个汉字</span> 的参数会发生什么有趣的事？"]
+		"text": ["可以试着点点看哦～", "LCD电子公告牌的创意来自 <span>Matrix67</span> 哦！", "猜猜看，给这个页面加上 <span>?char=任意一个字符</span> 的参数会发生什么有趣的事？"]
 	}],
 	"click": [{
 		"selector": "#waifu #live2d",
